@@ -82,9 +82,12 @@ for (i = 2; i <= 25; i++) {
   for (j = 1; j <= 20; j++) {
     macro += 'TAB CLOSE' + '\n';
   }
+  
+  for (k = 1; k <= 20; k++) {
+    macro += 'URL GOTO=javascript:window.scrollBy(0,10000)' + '\n';
+  }
 
   macro += 'WAIT SECONDS=20' + '\n';
-  macro += 'TAG POS=1 TYPE=A ATTR=TXT:' + i + '\n';
 
 }
 
