@@ -83,7 +83,7 @@ for (i = 2; i <= 25; i++) {
     macro += 'TAB CLOSE' + '\n';
   }
   
-  for (k = 1; k <= 20; k++) {
+  for (k = 1; k <= 1; k++) {
     macro += 'URL GOTO=javascript:window.scrollBy(0,10000)' + '\n';
   }
 
